@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "dev:worker": "node --watch worker.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.11.0",
+  "dependencies": {
+    "@langchain/community": "^0.3.43",
+    "@langchain/openai": "^0.5.10",
+    "@langchain/qdrant": "^0.1.2",
+    "@types/node": "^22.15.20",
+    "bullmq": "^5.52.3",
+    "cors": "^2.8.5",
+    "express": "~4.21.2",
+    "multer": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "~4.17.22",
+    "@types/multer": "^1.4.12"
+  }
+}
